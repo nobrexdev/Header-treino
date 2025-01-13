@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #1c1c1c;
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+
+.logo h1{
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+
+.nav-list ul{
+  display: flex;
+  list-style: none;
+  gap: 36px;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.buttes{
+  display: flex;
+  position: relative;
+  gap: 20px;
+}
+
+
+.nav-links:hover{
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.cart-shopping button{
+  padding: 6px 5px;
+  background-color: #50e687;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  top: 7px;
+}
+
+.cart-shopping button:hover{
+  color: #50e687;
+  background-color: #fff;
+  border: 1px solid #43ba6f;
+  transition:all 0.4s;
+  cursor: pointer;
+}
+
+.btn-login button{
+  width: 120px;
+  height: 40px;
+  background-color: #43ba6f;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.btn-login button a{
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
